@@ -50,6 +50,7 @@ function App() {
             </ProtectedRoute>
           }
         />
+        <Route path="*" element={<LandingPage />} />
 
       </Routes>
     </BrowserRouter>
